@@ -1,0 +1,30 @@
+
+nav ul{
+    flex-direction: row;
+    gap: 5px;
+}
+
+.chf_container{
+    background-image: url("../img/oneion.png"), url("../img/burger.png"), url("../img/chips.png"), url("../img/tomato.png"), url("../img/masrome.png"), url("../img/latose.png");
+    background-repeat: no-repeat;
+    background-position: 0 0, 360px 130px, 0 400px, 450px 650px, 500px 960px , 100px 1100px;
+}
+.burger_img{
+    width: 100%;
+}
+.burger_img img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.big_burger{
+    background-image: url("../img/oneion.png"), url("../img/burger.png"), url("../img/chips.png"), url("../img/tomato.png"), url("../img/masrome.png"), url("../img/latose.png");
+    background-repeat: no-repeat;
+    background-position: 0 0, 360px 130px, 0 400px, 100px 300px, 450px 460px , 200px 450px;
+}
+
+
+footer{
+    padding-top: 30px;
+}

@@ -1,0 +1,85 @@
+
+.main_head{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.head_artical{
+    text-align: left;
+    margin: 0 30px;
+    padding-bottom: 50px;
+}
+.head_artical h1{
+    font-size: xx-large;
+    font-weight: 400;
+}
+.head_artical p{
+    width: 626px;
+    font-size: 2.2rem;
+    padding: 10px;
+}
+.head_artical button{
+    margin: 20px 0;
+}
+
+.chf_container{
+    background-position: 0 0, 98% 10%, 0 300px, 98% 350px, 63% 470px , 36% 434px;
+}
+.chif_artical p{
+    width: 778px;
+    margin: 0 auto;
+}
+
+
+
+.burger{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 25px;
+}
+.burger_img,.burger_artical{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.burger_img img{
+    width: 60%;
+}
+
+.big_burger{
+    justify-content: center;
+    align-items: center;
+    padding: 40px 25px;
+    flex-direction: row;
+    background-position: 0 0, 98% 10%, 0 300px, 98% 350px, 63% 384px , 36% 334px;
+}
+.big_burger .burger_artical{
+    margin-left: 50px;
+}
+.static{
+    padding-bottom: 100px;
+}
+
+.static_discription{
+    gap: 50px;
+}
+.package{
+    padding-bottom: 70px;
+    background-image: url("../img/oneion.png"), url("../img/burger.png"), url("../img/chips.png"), url("../img/tomato.png"), url("../img/masrome.png"), url("../img/latose.png");
+    background-repeat: no-repeat;
+    background-position: 10% 5%, 98% 8%, 0 300px, 100% 350px, 68% 530px , 32% 530px;
+}
+.subscribe{
+    background-image: url("../img/oneion.png"), url("../img/burger.png"), url("../img/chips.png"), url("../img/tomato.png"), url("../img/masrome.png"), url("../img/latose.png");
+    background-repeat: no-repeat;
+    background-position: 0 0, 98% 10%, 0 300px, 98% 350px, 63% 470px , 36% 434px;
+
+}
+.mail input{
+    text-align: center;
+}
+
+footer .artical p{
+    max-width: 450px;
+}

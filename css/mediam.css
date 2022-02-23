@@ -1,0 +1,77 @@
+
+
+nav ul{
+
+    gap: 10px;
+}
+.chf_container{
+    background-position: 0 0, 560px 130px, 0 400px, 550px 550px, 600px 800px , 100px 750px;
+}
+.profile_container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+
+.burger_img img{
+    width: 50%;
+}
+.burger_artical h2{
+    padding: 10px;
+}
+.burger_artical p{
+    padding: 10px 0;
+}
+.burger_artical button{
+    margin-top: 10px;
+}
+
+.big_burger{
+    background-position: 0 0, 566px 100px, 0 300px, 500px 330px, 480px 460px , 200px 450px;
+}
+
+
+.static_artical p{
+    max-width: 644px;
+}
+
+.package h2{
+  
+    margin-bottom: 100px;
+}
+.package_cards{
+  
+    gap: 80px;
+}
+
+.mail{
+    position: relative;
+}
+.mail input{
+    width: 460px;
+    text-align: left;
+}
+.mail button{
+    border-radius: 0 30px 30px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer{
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+.artical_container{
+    text-align: left;
+    justify-content: flex-start;
+    width: 50%;
+}
+.others_contant{
+    width: 50%;
+    justify-content: space-around;
+}
